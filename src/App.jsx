@@ -7,21 +7,22 @@ import Experience from "./components/experience/Experience";
 import Testimonials from "./components/testimonials/Testimonials";
 import Services from "./components/services/Services";
 import Footer from "./components/footer/Footer";
+import Portfolio from "./components/portfolio/Portfolio";
 
-
-const App = ()=> {
+const App = () => {
   return (
     <>
       <Header />
       <Nav />
       <About />
-      <Experience/>
-      <Services/>
-      <Testimonials/>
+      <Experience />
+      <Services />
+      <Portfolio />
+      <Testimonials />
       <Contact />
-      <Footer/>
+      <Footer />
     </>
   );
-}
+};
 
 export default App;
